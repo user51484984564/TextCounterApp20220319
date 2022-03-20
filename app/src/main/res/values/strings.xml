@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">TextCounterApp20220319</string>
+
+    <string name="words">Words</string>
+    <string name="chars">Chars</string>
+
+    <string-array name="counting_options">
+        <item>@string/words</item>
+        <item>@string/chars</item>
+    </string-array>
+
+</resources>
