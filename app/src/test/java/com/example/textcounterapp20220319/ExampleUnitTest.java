@@ -35,8 +35,8 @@ public class ExampleUnitTest {
 
     @Test
     public void getCharsCount_Given_RandomString_Result() {
-        String givenString = Generator.generateRandomString(999999999);
-        int expectedValue = 999999999;
+        String givenString = Generator.generateRandomString(99999999);
+        int expectedValue = 99999999;
         int actualValue = TextUtils.getCharsCount(givenString);
 
         assertEquals(expectedValue, actualValue);
