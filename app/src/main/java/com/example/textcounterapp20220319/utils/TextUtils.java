@@ -7,4 +7,5 @@ public class TextUtils {
     public static int getWordsCount(String[] input){
         return input.length;
     }
+
 }
